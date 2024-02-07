@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Oblig 1</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="java.js"></script>
 </head>
 <body>
 <h1>Bestilling av kinobiletter</h1>
 <table>
     <tr><td>Velg film:</td>
-        <td><select id="filmValg">
+        <td><label for="filmValg"></label><select id="filmValg">
             <option>a</option>
             <option>b</option>
             <option>c</option>
@@ -38,6 +37,6 @@
 </table>
 <h2>Alle biletter</h2>
 <p id="billettene"></p>
-<button onclick="(new show()).inner();">Slett alle billettene</button>
+<button onclick="slett_billettene()">Slett alle billettene</button>
 </body>
 </html>
