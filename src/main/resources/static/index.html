@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Oblig 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="java.js"></script>
+</head>
+<body>
+<h1>Bestilling av kinobiletter</h1>
+<table>
+    <tr><td>Velg film:</td>
+        <td><select id="filmValg">
+            <option>a</option>
+            <option>b</option>
+            <option>c</option>
+            <option>d</option>
+            <option>e</option>
+            <option>f</option>
+            <option>g</option>
+        </select>
+        </td></tr>
+</table>
+<table>
+    <tr><td>Antall</td>
+        <td><label for="antall"></label><input type="text" id="antall"/></td></tr>
+</table>
+<table>
+    <tr><td>Fornavn</td>
+        <td><label for="fornavn"></label><input type="text"  id="fornavn"/></td></tr>
+    <tr><td>Etternavn</td>
+        <td><label for="etternavn"></label><input type="text" id="etternavn"/></td></tr>
+    <tr><td>Telefonnr</td>
+        <td><label for="telefonnr"></label><input type="text" id="telefonnr"/></td></tr>
+    <tr><td>Epost</td>
+        <td><label for="epost"></label><input type="email" id="epost"/></td></tr>
+    <tr><td><button onclick="show()">Kjøp billet</button><td></tr>
+</table>
+<h2>Alle biletter</h2>
+<p id="billettene"></p>
+<button onclick="(new show()).inner();">Slett alle billettene</button>
+</body>
+</html>
