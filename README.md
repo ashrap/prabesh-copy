@@ -1,0 +1,1 @@
+Kort beskrivelse av hva du har gjort, problemer, hva applikasjonen din gjør
