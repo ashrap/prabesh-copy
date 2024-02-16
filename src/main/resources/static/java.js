@@ -69,11 +69,11 @@ function show() {
 
             // Initialisering av verdiene
             document.getElementById("filmValg").value = "Velg Film Her";
-            document.getElementById("antall").value = " ";
-            document.getElementById("fornavn").value = " ";
-            document.getElementById("etternavn").value = " ";
-            document.getElementById("telefonnr").value = " ";
-            document.getElementById("epost").value = " ";
+            document.getElementById("antall").value = "";
+            document.getElementById("fornavn").value = "";
+            document.getElementById("etternavn").value = "";
+            document.getElementById("telefonnr").value = "";
+            document.getElementById("epost").value = "";
 
             let html = "<table><tr><th>Film</th><th>Antall</th><th>Fornavn</th><th>Etternavn</th><th>Telefonnr</th><th>Epost</th></tr>"
             for (let i of billetene) {
